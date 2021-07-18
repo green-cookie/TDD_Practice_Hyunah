@@ -24,16 +24,10 @@ class RandomGameTests: XCTestCase {
     var sut = RandomGame(playMode: .single)
     var sutForMultiplayer = RandomGame(playMode: .multiple(["naver", "line", "kakao"]))
     
-    override func setUp() {
-        super.setUp()
-        sut.resetGoal(to: 23)
-        sutForMultiplayer.resetGoal(to: 44)
-    }
-    
     func testRandomGame_checkNumber_whenNumberIsLowerThanGoal() {
         // given
         let guessNumber = 15
-        
+        sut.resetGoal(to: 23)
         // when
         let result = sut.checkNumber(guessNumber)
         
@@ -44,7 +38,7 @@ class RandomGameTests: XCTestCase {
     func testRandomGame_checkNumber_whenNumberIsHigherThanGoal() {
         // given
         let guessNumber = 33
-        
+        sut.resetGoal(to: 23)
         // when
         let result = sut.checkNumber(guessNumber)
         
@@ -55,7 +49,7 @@ class RandomGameTests: XCTestCase {
     func testRandomGame_checkNumber_whenNumberEqualGoal() {
         // given
         let guessNumber = 23
-        
+        sut.resetGoal(to: 23)
         // when
         let result = sut.checkNumber(guessNumber)
         
@@ -66,6 +60,7 @@ class RandomGameTests: XCTestCase {
     func testRandomGame_checkNumber_whenPlayModeIsMultiple() {
         // given
         let guessNumbers = [11, 98, 44]
+        sutForMultiplayer.resetGoal(to: 44)
         // when
         let result = try? sutForMultiplayer.checkNumber(guessNumbers)
         
@@ -76,6 +71,7 @@ class RandomGameTests: XCTestCase {
     func testRandomGame_checkNumber_whenPlayModeIsMultiple_allPlayerFail() {
         // given
         let guessNumbers = [23, 88, 66]
+        sutForMultiplayer.resetGoal(to: 44)
         // when
         let result = try? sutForMultiplayer.checkNumber(guessNumbers)
         
@@ -86,6 +82,7 @@ class RandomGameTests: XCTestCase {
     func testRandomGame_checkNumber_whenPlayModeIsMultiple_allPlayerPass() {
         // given
         let guessNumbers = [44, 44, 44]
+        sutForMultiplayer.resetGoal(to: 44)
         // when
         let result = try? sutForMultiplayer.checkNumber(guessNumbers)
         
@@ -96,6 +93,7 @@ class RandomGameTests: XCTestCase {
     func testRandomGame_playMode_multiple_whenNumberOfGuessIsSmallerThanNumberOfPlayer_shouldReturnError() {
         // given
         let guessNumbers = [11, 22]
+        sutForMultiplayer.resetGoal(to: 44)
         var thrownError: Error?
         
         // when
@@ -111,6 +109,7 @@ class RandomGameTests: XCTestCase {
     func testRandomGame_playMode_multiple_whenNumberOfGuessIsLargerThanNumberOfPlayer_shouldReturnError() {
         // given
         let guessNumbers = [11, 22, 33, 55, 66]
+        sutForMultiplayer.resetGoal(to: 44)
         var thrownError: Error?
         
         // when

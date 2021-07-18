@@ -8,7 +8,7 @@
 import Foundation
 
 class RandomNumberGenerator {
-    private let range = 0...100
+    private let range = 1...100
     
     func makeRandomNumber() -> Int {
         return Int.random(in: range)
