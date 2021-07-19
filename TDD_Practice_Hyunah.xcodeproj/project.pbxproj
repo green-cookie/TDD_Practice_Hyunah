@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE255420269D424F002C0BC4 /* RandomGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE25541F269D424F002C0BC4 /* RandomGameTests.swift */; };
+		CE255422269E5DC2002C0BC4 /* RandomGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE255421269E5DC2002C0BC4 /* RandomGame.swift */; };
+		CE8A2EE2269E661B00699EE0 /* RandomNumberGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A2EE1269E661B00699EE0 /* RandomNumberGenerator.swift */; };
+		CE8A2EE4269E662B00699EE0 /* RandomNumberGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A2EE3269E662B00699EE0 /* RandomNumberGeneratorTests.swift */; };
 		CEF336662693311C00D6DF9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF336652693311C00D6DF9D /* AppDelegate.swift */; };
-		CEF336682693311C00D6DF9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF336672693311C00D6DF9D /* SceneDelegate.swift */; };
-		CEF3366A2693311C00D6DF9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF336692693311C00D6DF9D /* ViewController.swift */; };
+		CEF3366A2693311C00D6DF9D /* RandomGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF336692693311C00D6DF9D /* RandomGameViewController.swift */; };
 		CEF3366F2693311E00D6DF9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF3366E2693311E00D6DF9D /* Assets.xcassets */; };
 		CEF336722693311E00D6DF9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF336702693311E00D6DF9D /* LaunchScreen.storyboard */; };
-		CEF3367D2693311E00D6DF9D /* TDD_Practice_HyunahTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF3367C2693311E00D6DF9D /* TDD_Practice_HyunahTests.swift */; };
-		CEF336882693311F00D6DF9D /* TDD_Practice_HyunahUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF336872693311F00D6DF9D /* TDD_Practice_HyunahUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,29 +25,21 @@
 			remoteGlobalIDString = CEF336612693311C00D6DF9D;
 			remoteInfo = TDD_Practice_Hyunah;
 		};
-		CEF336842693311F00D6DF9D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEF3365A2693311C00D6DF9D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CEF336612693311C00D6DF9D;
-			remoteInfo = TDD_Practice_Hyunah;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE25541F269D424F002C0BC4 /* RandomGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomGameTests.swift; sourceTree = "<group>"; };
+		CE255421269E5DC2002C0BC4 /* RandomGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomGame.swift; sourceTree = "<group>"; };
+		CE8A2EE1269E661B00699EE0 /* RandomNumberGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumberGenerator.swift; sourceTree = "<group>"; };
+		CE8A2EE3269E662B00699EE0 /* RandomNumberGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumberGeneratorTests.swift; sourceTree = "<group>"; };
 		CEF336622693311C00D6DF9D /* TDD_Practice_Hyunah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDD_Practice_Hyunah.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF336652693311C00D6DF9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CEF336672693311C00D6DF9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEF336692693311C00D6DF9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEF336692693311C00D6DF9D /* RandomGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomGameViewController.swift; sourceTree = "<group>"; };
 		CEF3366E2693311E00D6DF9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEF336712693311E00D6DF9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEF336732693311E00D6DF9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEF336782693311E00D6DF9D /* TDD_Practice_HyunahTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDD_Practice_HyunahTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEF3367C2693311E00D6DF9D /* TDD_Practice_HyunahTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDD_Practice_HyunahTests.swift; sourceTree = "<group>"; };
 		CEF3367E2693311E00D6DF9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEF336832693311F00D6DF9D /* TDD_Practice_HyunahUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDD_Practice_HyunahUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEF336872693311F00D6DF9D /* TDD_Practice_HyunahUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDD_Practice_HyunahUITests.swift; sourceTree = "<group>"; };
-		CEF336892693311F00D6DF9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,13 +57,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEF336802693311F00D6DF9D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,7 +65,6 @@
 			children = (
 				CEF336642693311C00D6DF9D /* TDD_Practice_Hyunah */,
 				CEF3367B2693311E00D6DF9D /* TDD_Practice_HyunahTests */,
-				CEF336862693311F00D6DF9D /* TDD_Practice_HyunahUITests */,
 				CEF336632693311C00D6DF9D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,7 +74,6 @@
 			children = (
 				CEF336622693311C00D6DF9D /* TDD_Practice_Hyunah.app */,
 				CEF336782693311E00D6DF9D /* TDD_Practice_HyunahTests.xctest */,
-				CEF336832693311F00D6DF9D /* TDD_Practice_HyunahUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,8 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				CEF336652693311C00D6DF9D /* AppDelegate.swift */,
-				CEF336672693311C00D6DF9D /* SceneDelegate.swift */,
-				CEF336692693311C00D6DF9D /* ViewController.swift */,
+				CEF336692693311C00D6DF9D /* RandomGameViewController.swift */,
+				CE255421269E5DC2002C0BC4 /* RandomGame.swift */,
+				CE8A2EE1269E661B00699EE0 /* RandomNumberGenerator.swift */,
 				CEF3366E2693311E00D6DF9D /* Assets.xcassets */,
 				CEF336702693311E00D6DF9D /* LaunchScreen.storyboard */,
 				CEF336732693311E00D6DF9D /* Info.plist */,
@@ -110,19 +95,11 @@
 		CEF3367B2693311E00D6DF9D /* TDD_Practice_HyunahTests */ = {
 			isa = PBXGroup;
 			children = (
-				CEF3367C2693311E00D6DF9D /* TDD_Practice_HyunahTests.swift */,
+				CE25541F269D424F002C0BC4 /* RandomGameTests.swift */,
+				CE8A2EE3269E662B00699EE0 /* RandomNumberGeneratorTests.swift */,
 				CEF3367E2693311E00D6DF9D /* Info.plist */,
 			);
 			path = TDD_Practice_HyunahTests;
-			sourceTree = "<group>";
-		};
-		CEF336862693311F00D6DF9D /* TDD_Practice_HyunahUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CEF336872693311F00D6DF9D /* TDD_Practice_HyunahUITests.swift */,
-				CEF336892693311F00D6DF9D /* Info.plist */,
-			);
-			path = TDD_Practice_HyunahUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,24 +140,6 @@
 			productReference = CEF336782693311E00D6DF9D /* TDD_Practice_HyunahTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CEF336822693311F00D6DF9D /* TDD_Practice_HyunahUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CEF336922693311F00D6DF9D /* Build configuration list for PBXNativeTarget "TDD_Practice_HyunahUITests" */;
-			buildPhases = (
-				CEF3367F2693311F00D6DF9D /* Sources */,
-				CEF336802693311F00D6DF9D /* Frameworks */,
-				CEF336812693311F00D6DF9D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CEF336852693311F00D6DF9D /* PBXTargetDependency */,
-			);
-			name = TDD_Practice_HyunahUITests;
-			productName = TDD_Practice_HyunahUITests;
-			productReference = CEF336832693311F00D6DF9D /* TDD_Practice_HyunahUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -194,10 +153,6 @@
 						CreatedOnToolsVersion = 12.4;
 					};
 					CEF336772693311E00D6DF9D = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = CEF336612693311C00D6DF9D;
-					};
-					CEF336822693311F00D6DF9D = {
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = CEF336612693311C00D6DF9D;
 					};
@@ -218,7 +173,6 @@
 			targets = (
 				CEF336612693311C00D6DF9D /* TDD_Practice_Hyunah */,
 				CEF336772693311E00D6DF9D /* TDD_Practice_HyunahTests */,
-				CEF336822693311F00D6DF9D /* TDD_Practice_HyunahUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -240,13 +194,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEF336812693311F00D6DF9D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -254,9 +201,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEF3366A2693311C00D6DF9D /* ViewController.swift in Sources */,
+				CEF3366A2693311C00D6DF9D /* RandomGameViewController.swift in Sources */,
 				CEF336662693311C00D6DF9D /* AppDelegate.swift in Sources */,
-				CEF336682693311C00D6DF9D /* SceneDelegate.swift in Sources */,
+				CE8A2EE2269E661B00699EE0 /* RandomNumberGenerator.swift in Sources */,
+				CE255422269E5DC2002C0BC4 /* RandomGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,15 +212,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEF3367D2693311E00D6DF9D /* TDD_Practice_HyunahTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEF3367F2693311F00D6DF9D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CEF336882693311F00D6DF9D /* TDD_Practice_HyunahUITests.swift in Sources */,
+				CE8A2EE4269E662B00699EE0 /* RandomNumberGeneratorTests.swift in Sources */,
+				CE255420269D424F002C0BC4 /* RandomGameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,11 +224,6 @@
 			isa = PBXTargetDependency;
 			target = CEF336612693311C00D6DF9D /* TDD_Practice_Hyunah */;
 			targetProxy = CEF336792693311E00D6DF9D /* PBXContainerItemProxy */;
-		};
-		CEF336852693311F00D6DF9D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CEF336612693311C00D6DF9D /* TDD_Practice_Hyunah */;
-			targetProxy = CEF336842693311F00D6DF9D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -431,6 +367,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hyunable.TDD-Practice-Hyunah";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -501,46 +438,6 @@
 			};
 			name = Release;
 		};
-		CEF336932693311F00D6DF9D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T65BQC9535;
-				INFOPLIST_FILE = TDD_Practice_HyunahUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hyunable.TDD-Practice-HyunahUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TDD_Practice_Hyunah;
-			};
-			name = Debug;
-		};
-		CEF336942693311F00D6DF9D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T65BQC9535;
-				INFOPLIST_FILE = TDD_Practice_HyunahUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hyunable.TDD-Practice-HyunahUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TDD_Practice_Hyunah;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -567,15 +464,6 @@
 			buildConfigurations = (
 				CEF336902693311F00D6DF9D /* Debug */,
 				CEF336912693311F00D6DF9D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CEF336922693311F00D6DF9D /* Build configuration list for PBXNativeTarget "TDD_Practice_HyunahUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CEF336932693311F00D6DF9D /* Debug */,
-				CEF336942693311F00D6DF9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
